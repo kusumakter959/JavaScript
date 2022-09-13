@@ -24,3 +24,6 @@ let i = "10e5";
 let k = 10;
 console.log(isNaN(i));
 console.log(isNaN(k));
+
+// let str = 'b'+ 'a' + + 'a'+'a';
+// console.log(str.toUpperCase());
