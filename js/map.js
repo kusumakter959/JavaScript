@@ -12,9 +12,9 @@ let text = new Map([
 ]);
 text.set("apple", 600);
 text.set(232, 800);
-// console.log(text.get("apples"));
-// console.log(text.delete("oranges"));
-// console.log(text.size);
+console.log(text.get("apples"));
+console.log(text.delete("oranges"));
+console.log(text.size);
 
 
 text.forEach(function(value,key){
