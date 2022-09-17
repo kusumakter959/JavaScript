@@ -9,4 +9,6 @@ function Person(first, last, age) {
 }
 const kusum = new Person("kusum", "akter", 21);
 const ador = new Person("ador", "ali", 7);
-console.log(Person());
+kusum.country = "bangladesh"
+
+console.log(kusum);
