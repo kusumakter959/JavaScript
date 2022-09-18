@@ -3,7 +3,8 @@
 //but map  key k jekono data type dewa jai,
 // map size property ache
 //je order insert kore, se order thake
-// key and value k newar jonno
+// key and value k newar jai
+//map iterable
 
 let text = new Map([
   ["apples", 500],
