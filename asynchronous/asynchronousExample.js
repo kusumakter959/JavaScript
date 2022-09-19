@@ -32,4 +32,15 @@ function getcertificate(){
 enroll(function(){
     progress(getcertificate );
 });
-// progress();
+
+// enroll(function(){
+//     progress(getcertificate(
+//         function(getcertificate,
+//             function(c, function(){
+
+//             }){
+
+//         }){
+        
+//     }));
+// });
