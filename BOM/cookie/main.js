@@ -29,9 +29,9 @@ function getCookie(cname){
 function  checkCookie(cname,exdays){
     let a = getCookie(cname);
     if(a != " "){
-        alert("Welcome aging" + a);
+        alert("Welcome aging " + a);
     }else{
-        name = prompt("pleace enter your name:", " Enter Your Name");
+        name = prompt("pleace enter your name:", " ");
         if(name === " " && name === null){
             setCookie(cname, name, exdays);
         }
