@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cookie</title>
+</head>
+<body>
+    
+   <input type="button" value="Set name Cookie" onclick="setCookie('name','kusum Akter',2)"> <br>  <!--  // cooie name //cookie value // cookie expired day -->
+    <input type="button" value="Set Username Cookie" onclick="setCookie('username','kusum',2)"> <br>
+    <input type="button" value="get name Cookie" onclick="alert(getCookie('name'))"> <br>
+    <input type="button" value="get uasername Cookie" onclick="alert(getCookie('username'))"><br>
+
+    <input type="button" value="Check uasername Cookie" onclick="alert(checkCookie('username'))"><br>
+
+    <input type="button" value="Check age Cookie" onclick="alert(checkCookie('age'))"><br>
+
+    <script src="main.js"></script>
+</body>
+</html>
