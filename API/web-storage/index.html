@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <!-- LOCAL -->
+    
+    <button onclick="setlocalStorage('username','kusum')">Set local storage Username</button> <br><br>
+    <button onclick="setlocalStorage('name','kusum akter')">Set local storage name</button><br><br>
+
+    <button onclick="getLocalStorage('username')">Get local Storage username</button><br><br>
+    <button onclick="getLocalStorage('name')">Get local Storage name</button><br><br>
+
+    <button onclick="removelocalStorage('name')">remove local Storage name</button> <br><br>
+    <button onclick="clearlocalStorage()">clear local Storage username</button> <br><br>
+
+    <!-- SESSION -->
+
+    <h2>Session</h2>
+
+    <button onclick="setSessionStorage('username','kusum')">Set Session storage Username</button> <br><br>
+    <button onclick="setSessionStorage('name','kusum akter')">Set Session storage name</button><br><br>
+
+    <button onclick="getSessionStorage('username')">Get Session Storage username</button><br><br>
+    <button onclick="getSessionStorage('name')">Get Session Storage name</button><br><br>
+
+    <button onclick="removeSessionStorage('name')">remove Session Storage name</button> <br><br>
+    <button onclick="clearSessionStorage()">clear Session Storage username</button> <br><br>
+
+    <script src="main.js"></script>
+</body>
+</html>

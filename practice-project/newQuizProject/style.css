@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.quiz-from {
+    background: gainsboro;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.inner-div {
+    padding: 50px;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px #6e6e6e;
+}
+.heading {
+    font-size: 40px;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+}
+.inner-div ul{
+    list-style: none;
+    text-align: left;
+}
+.inner-div li {
+    margin-bottom: 15px;
+    text-transform: capitalize;
+    font-size: 20px;
+}
+.btn {
+    padding: 10px 30px;
+    border-radius: 2px;
+    background: #b5b5b5;
+    font-size: 18px;
+    border: none;
+    color: white;
+    margin-top: 27PX;
+    text-align: left;
+}
+.inner-div{
+    text-align: center;
+}
+
+
+#showScrore{
+    margin-top: 40px;
+    padding: 30px;
+    box-shadow: 1px 1px 10px #a3a1a5;
+}
+#showScrore .btn:focus{
+    border: none;
+}
+.scoreArea{
+    display: none;
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/kursor/dist/kursor.css">
+    <title>Document</title>
+    <style>
+        .color{
+            margin-top: 50px;
+        }
+        span {
+        /* margin-top: 100px; */
+        color: blue;
+        font-weight: bold;
+        padding: 10px;
+        font-size: 20px;
+        border-radius: 4px;
+        margin-left: 20px;
+        cursor: pointer;
+        background: yellow;
+        
+    }
+    body {
+        background: rgb(214, 214, 214);
+        padding: 50px;
+    }
+    </style>
+</head>
+<body>
+    <div class="color">
+        <span id="red" onclick="red()">red</span>
+        <span id="blue" onclick="blue()">blue</span>
+        <span id="black" onclick="black()">black</span>
+    </div>
+   <div class="content">
+     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus, hic aliquid corrupti esse aliquam quisquam nobis commodi eaque cupiditate deleniti ipsa blanditiis animi iure adipisci quos minima, libero aperiam nam expedita! Eum, cupiditate quia nam blanditiis dolor tempora, odio in a hic saepe natus culpa quae debitis optio excepturi earum, ex labore. Magni incidunt enim consectetur, nam, laborum, sed sapiente laudantium molestias accusamus culpa alias. Veritatis corrupti perferendis, voluptate impedit aliquam at asperiores autem dolor eveniet sequi ducimus assumenda temporibus dignissimos incidunt ipsum minus ex expedita iure est sit cum! Perferendis non quidem rem? Sunt voluptas tempora itaque soluta quis rem incidunt vitae sapiente dolor iste repellendus eos eius culpa debitis quisquam, magni mollitia tempore, labore minus aut consectetur officiis nulla exercitationem voluptates. Placeat atque quaerat cumque minus unde inventore dolorem eveniet neque molestias perferendis vero similique beatae suscipit nesciunt sequi, ducimus, iure, doloremque quia laudantium illo iusto veniam nihil tempora. Saepe soluta quae possimus quo sint reprehenderit? Repudiandae, sunt cumque dolorum aliquidtae dolore itaque necessitatibus corporis illo suscipit distinctio quae doloremque dicta architecto accusantium aperiam totam quasi, a rem hic, sed error tenetur esse ducimus laboriosam! Voluptatibus quia labore soluta saepe, nam earum, itaque quod, sit eligendi harum ut! Impedit iure aut corrupti dolorem minima quisquam blanditiis laborum libero ducimus dolores, minus illo sequi. Autem reprehenderit sapiente id animi excepturi odio quo aperiam sint fuga maxime, odit temporibus voluptatem inventore vero facilis unde velit aut et eos, similique labore fugiat voluptatum asperiores sit. Sunt explicabo quibusdam amet tempora odit culpa numquam officiis voluptatibus adipisci. In, nihil quam saepe accusam, ad ipsum nisi aliquam impedit sit a molestiae voluptate ratione? Numquam perspiciatis unde eveniet harum dolore. Nulla iste, nihil autem repellendus pariatur, explicabo minus quae animi sint ipsa, aperiam perspiciatis odit distinctio. Explicabo harum libero quisquam esse? Consequatur, deserunt repellat. Exercitationem quas minus quia officia reprehenderit provident necessitatibuslam iusto esse exercitationem minus, officia vitae eius consequuntur, officiis consectetur. Quis quaerat assumenda et quia earum eius cum, voluptatum a esse ommodi facere veritatis velit praesentium eaque beatae labore quas ipsum quo cumque corrupti quod? Esse pariatur cumque repellat molestias nostrum magnam totam dolores vitae placeat voluptas qui quod tempora accusantium ipsum sequi expedita optio similique.</p>
+
+   </div>
+   <div class="root">
+    <button id="colorGenaret" onclick="colorGenaret()">ColorGenaret</button>
+   </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/kursor@0.0.14/dist/kursor.js"></script>
+    <script>
+        new kursor({
+            type: 6
+        })
+
+       const content =  document.querySelector("body");
+       function red(){
+        content.style.background = "red";
+        content.style.color = "white";
+       }
+       function blue(){
+        content.style.background = "blue";
+        content.style.color = "white";
+       }
+       function black(){
+        content.style.background = "black";
+        content.style.color = "white";
+       }
+        
+    </script>
+    
+</body>
+</html>
